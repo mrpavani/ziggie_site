@@ -81,6 +81,7 @@ html {
 }
 
 .foooter{
+    flex-shrink: 0;
     max-height: 60px;
     padding: 0.9em 7%;
     text-align: center;

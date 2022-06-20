@@ -35,7 +35,7 @@ html {
 /* main */
 
 .main {
-  background-image: url(../img/fundo_main.png);
+  background: url(../img/fundo_main.svg) no-repeat;
   background-size: cover;
   background-position: center;
   height: 75vh;
@@ -168,6 +168,7 @@ html {
 /* footer */
 
 .footer {
+  flex-shrink: 0;
   position: relative;
   bottom: 0;
   background: var(--cor-roxa);
